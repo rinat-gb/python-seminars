@@ -40,7 +40,7 @@
 #    y = int(binary_string[1])
 #    z = int(binary_string[2])
 #
-#    print(f'¬({x} ⋁ {y} ⋁ {z}) = ¬{x} ⋀ ¬{y} ⋀ ¬{z} есть {not (x or y or z) == (not x) and (not y) and (not z)}')
+#    print(f'¬({x} ⋁ {y} ⋁ {z}) = ¬{x} ⋀ ¬{y} ⋀ ¬{z} есть {not (x or y or z) == (not x and not y and not z)}')
 #
 
 ######################################################################
